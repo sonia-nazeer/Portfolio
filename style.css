@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color:#e0f7fa;
+  overflow-x: hidden;
+  color: #333;
+}
+.about-section {
+    background-color: #f2f6f9;
+    padding: 100px 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .about-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    background: #fff;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+    gap: 30px;
+  }
+  
+  .about-left, .about-right {
+    flex: 1 1 45%;
+  }
+  
+  .about-left h2 {
+    font-size: 38px;
+    color: #004d40;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .about-left p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .about-right h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .about-right ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .about-right ul li {
+    font-size: 17px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    position: relative;
+    color: #555;
+  }
+  
+  .about-right ul li span {
+    margin-right: 10px;
+    color: #00bcd4;
+    font-size: 18px;
+  }
+  .experience-section {
+    background-color: #fefefe;
+    padding: 80px 30px;
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+  }
+  
+  .experience-section h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #004d40;
+  }
+  
+  .experience-table {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    box-shadow: 0 10px 18px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .experience-table thead {
+    background-color: #00bcd4;
+    color: white;
+  }
+  
+  .experience-table th,
+  .experience-table td {
+    padding: 18px 20px;
+    font-size: 16px;
+    text-align: left;
+  }
+  
+  .experience-table tr:nth-child(even) {
+    background-color: #f4f4f4;
+  }
+  .projects-section {
+    background-color: #e0f7fa;
+    padding: 100px 30px;
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+  }
+  
+  .projects-section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #004d40;
+  }
+  
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 40px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .project-card {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+    text-align: left;
+  }
+  
+  .project-card h3 {
+    color: #ff5722;
+    margin-bottom: 15px;
+  }
+  
+  .project-card video {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .project-card p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+  }
+  .contact-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 60px 10%;
+    flex-wrap: wrap;
+  }
+  
+  .contact-left {
+    flex: 1;
+    min-width: 300px;
+    margin-bottom: 30px;
+  }
+  
+  .contact-left h1 {
+    font-size: 42px;
+    color: #0f1b2a;
+    font-weight: bold;
+  }
+  
+  .social-links {
+    margin-top: 40px;
+  }
+  
+  .social-links h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #0f1b2a;
+  }
+  
+  .social-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .social-links li {
+    font-size: 16px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    color: #0f1b2a;
+    border-bottom: 1px solid #0f1b2a;
+    padding-bottom: 5px;
+    max-width: 300px;
+  }
+  
+  .social-links i {
+    margin-right: 10px;
+    font-size: 18px;
+  }
+  
+  .contact-right {
+    flex: 1;
+    min-width: 300px;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .contact-right form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-right label {
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #222;
+  }
+  
+  .contact-right span {
+    color: red;
+  }
+  
+  .contact-right input,
+  .contact-right textarea {
+    margin-bottom: 20px;
+    padding: 12px 16px;
+    border-radius: 15px;
+    border: 1px solid #0f1b2a;
+    font-size: 16px;
+  }
+  
+  .contact-right button {
+    background-color: #0f1b2a;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    align-self: flex-start;
+    transition: background-color 0.3s;
+  }
+  
+  .contact-right button:hover {
+    background-color: #1c2d48;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .nav-links {
+      display: none;
+    }
+
+    .right {
+      margin-top: 30px;
+    }
+  
+    .about-wrapper {
+      flex-direction: column;
+      padding: 30px;
+    }
+  
+    .about-left, .about-right {
+      flex: 1 1 100%;
+    }
+  }
+  
