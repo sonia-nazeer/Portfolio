@@ -39,7 +39,8 @@ This is a **simple personal portfolio website** made using only **HTML** and **C
 
 ## 📷 Preview
 
-![Portfolio Screenshot](images/profile.png)
+![Portfolio Screenshot](images/profile.jpg)
+(images/contact-page.jpg)
 
 ---
 
