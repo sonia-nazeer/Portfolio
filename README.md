@@ -58,9 +58,7 @@ This is a **simple personal portfolio website** made using only **HTML** and **C
 You can reach me via:
 
 - GitHub: https://github.com/sonia-nazeer
-- LinkedIn: [linkedin.com/in/randomprofile](https://linkedin.com/in/randomprofile)
-- Instagram: [@random_insta_id](https://instagram.com/random_insta_id)
-
+- LinkedIn:https://www.linkedin.com/in/sonia-nazeer-aba72b280/
 ---
 
 > 🌟 This is a beginner-level portfolio project. Designed with love ❤️ by Sonia Nazeer.
